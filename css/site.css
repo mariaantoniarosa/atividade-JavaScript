@@ -1,0 +1,84 @@
+body {
+    background-color: bisque;
+}
+
+.quadrado {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    
+  
+}
+
+
+
+
+.botoes {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+select {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.quadrado2,
+.quadrado3,
+.quadrado4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 30px;
+    width: 250px;
+    flex-direction: column;
+    height: 100px;
+    border: 2px solid black;
+
+}
+.quadrado5 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+#numero1,
+#numero2,
+#resultado,
+#resultado2,
+#numeros {
+    margin: 6px;
+    height: 15px;
+    width: 40px;
+    font-size: 15px;
+    color: black;
+   
+}
+
+
+
+
+.linha {
+width: 500px;
+
+    margin: 10px;
+    border: 1.5px solid black;
+}
+.enviarB input { 
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+}
